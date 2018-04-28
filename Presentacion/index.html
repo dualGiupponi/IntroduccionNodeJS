@@ -28,11 +28,11 @@
                 <section></section>
                 <!--Section de inicio-->
                 <section data-background-image="./images/nodejs-frameworks.png">
-                    <h2 style="color:black;position: relative;top: 6em">Introducción a NodeJS</h2>
+                    <h2 style="color:black;position: relative;top: 6em">Introducción a Node.JS</h2>
                 </section>
                 <!--Section de Introducción: Pregunta Detonante-->
 				<section data-background-color=" #1787a7">
-                    <h1>¿Qué es NodeJS?</h1>
+                    <h1>¿Qué es Node.JS?</h1>
                 </section>
                 <!--Section donde se explica qué es-->
                 <section data-background-color="#1787a7">
@@ -66,28 +66,27 @@
                         </ul>
                     </div>
                 </section>
-                
-                <!--Explicación detallada de cómo funciona un web browser-->
-                <section>
-                    <h1>Funcionamiento de un navegador web</h1>
-                    <div data-background-image></div>
-                </section>
-                <!--Explicación detallada de cómo funciona V8-->
-                <section>
-                    <h1>Funcionamiento de un engine de JavaScript</h1>
-                    <h2>(Y por ende, de V8)</h2>
-                </section>
                 <!--Explicación Detallada - Parte 2-->
                 <section data-background-color="#1787a7">
-                    <strong>Node.js usa un modelo de operaciones E/S asíncrono y orientado a eventos, que lo hace liviano y eficiente.</strong> 
+                    <p style="position: relative;top:5em;">
+                        <strong>Node.js usa un modelo de operaciones E/S asíncrono y orientado a eventos, que lo hace liviano y eficiente.</strong> 
+                    </p>
+                    <p class="fragment fade-in" style="position: relative;top:8em;">
+                        <strong>(Cuando nos referimos al modelo de operaciones, nos referimos a cómo maneja la concurrencia)</strong>
+                    </p>
                 </section>
                 <!--Explicación de qué es un modelo asíncrono-->
                 <section data-background-color="#1787a7">
-                    <p class="fragment fade-out" style="position: relative;top:5em;">
+                    <p style="position: relative;top:5em;">
                         Un modelo asíncrono es un modelo donde las operaciones no se realizan <br>
                         con un orden determinado.
                     </p>
-                    <img src="./images/asincronia.png" class="fragment fade-in" style="position: relative; bottom:6em; width: 100%">
+                    <p class="fragment fade-in" style="position: relative;top:6em;">
+                        <strong>En JavaScript</strong>, usamos <strong>Callbacks o promesas</strong> para manejar esta asincronía
+                    </p>
+                </section>
+                <section>
+                    <img src="./images/asincronia.png" style="width: 80%">
                 </section>
                 <section>
                     <h2>En conclusión...</h2>
@@ -103,9 +102,112 @@
                 <section data-background-image="./images/restaurante.jpg"></section>
                 <!--Explicación detallada - parte 3-->
                 <section>
-
+                    <h3>Ahora... Si nosotros somos los que pedimos la comida,<br>
+                        y Node.JS es el restaurante,<br>
+                        <h1 class="fragment fade-in"><strong>¿Quién es el mozo?</strong></h1>
+                    </h3>
                 </section>
-			</div>
+                <section data-background-color="#1787a7">
+                    <h1>Event Loop</h1>
+                    <h3>La fortaleza (y debilidad) de Node.JS</h3>
+                </section>
+                <section data-background-color="#F2EBEB">
+                    <img src="./images/nodejs-event-loop.png" style="width: 100%;">
+                </section>
+                <section>
+                    <img src="./images/event-loop.png" style="width: 100%;">
+                </section>
+                <section>
+                    <h2>Sistema de funcionamiento completo</h2>
+                    <img src="./images/detalle-completo-nodejs.png">
+                </section>
+                <section data-background-color="#1787a7">
+                    <h1>
+                        Ventajas y Desventajas del Event Loop
+                    </h1>
+                </section>
+                <section data-background-color="#1787a7">
+                    <h3>
+                        El ecosistema de paquetes de Node.js, npm, es el ecosistema mas grande de librerías de código abierto en el mundo.
+                    </h3>
+                </section>
+                <section>
+                    <img src="./images/npm-logo.png">
+                    <p>Node Package Manager</p>
+                </section>
+                <section data-background-color="#1787a7">
+                    <h2>
+                        Usos de Node.JS y JavaScript.
+                    </h2>
+                </section>
+                <section data-background-color="#1787a7">
+                    <h2>
+                        Servidores Web
+                    </h2>
+                    <img src="./images/Express.png">
+                </section>
+                <section data-background-color="#1787a7">
+                    <h2>
+                        Servidores Web
+                    </h2>
+                    <img src="./images/koajs.jpeg">
+                </section>
+                <section data-background-color="#1787a7">
+                    <h2>
+                            Servidores Web
+                    </h2>
+                    <img src="./images/restify.png">
+                </section>
+                <section data-background-color="#1787a7">
+                    <h2>
+                        Herramientas de Desarrollo
+                    </h2>
+                    <img src="./images/webpack.gif" class="fragment fade-out">
+                    <img src="./images/webpack.png" class="fragment fade-in" style="position: relative; bottom: 8em;">
+                </section>
+                <section data-background-color="#1787a7">
+                    <h2>
+                        Herramientas de Desarrollo
+                    </h2>
+                    <img src="./images/grunt.jpg">
+                </section>
+                <section data-background-color="#1787a7">
+                    <h2>
+                        Robótica e Internet de las cosas
+                    </h2>
+                    <img src="./images/johnny-five.png">
+                </section>
+                <section data-background-color="#1787a7">
+                    <h2>
+                        Robótica e Internet de las cosas
+                    </h2>
+                    <h4>SerialPort (Librería NPM)</h4>
+                </section>
+                <section data-background-color="#1787a7">
+                    <h2>
+                        Aplicaciones de Escritorio
+                    </h2>
+                    <img src="./images/nw.png">
+                </section>
+                <section data-background-color="#1787a7">
+                    <h2>
+                        Y así un largo etcetera...
+                    </h2>
+                </section>
+                <section>
+                    <h1>¿Preguntas?</h1>
+                </section>
+                <Section>
+                    <h3>Dual Giupponi</h3>
+                    <p>
+                        Estudiante de la tecnicatura superior en programación<br>
+                        de la UTN FRCon. <br>
+                        Programador Autodidacta. <br>
+                        <strong>Correo Electrónico:</strong>dual.giupponi@gmail.com <br>
+                        <strong>Usuario GitHub:</strong>dualGiupponi
+                    </p>
+                </Section>
+            </div>
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
